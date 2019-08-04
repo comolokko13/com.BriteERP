@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e487ad0-0548-4acd-9a1c-599b30757b72" name="Default Changelist" comment="" />
+    <list default="true" id="8e487ad0-0548-4acd-9a1c-599b30757b72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/pages/CRMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/pages/CRMPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/tests/testdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/tests/viewListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/TestBase.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +34,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
   <component name="ProjectId" id="1OtxQ7YbIRCIXOUYFexrrhDbDD1" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564809922583" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +54,49 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="TestNG.viewListPage">
+    <configuration name="viewListPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.BriteERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.briteERP.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.briteERP.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.briteERP.tests.viewListPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="viewListPage.verifyListPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.BriteERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.briteERP.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.briteERP.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.briteERP.tests.viewListPage" />
+      <option name="METHOD_NAME" value="verifyListPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.viewListPage" />
+        <item itemvalue="TestNG.viewListPage.verifyListPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,5 +109,16 @@
       <updated>1564809098305</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
