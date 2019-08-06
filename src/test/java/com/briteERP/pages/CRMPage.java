@@ -32,7 +32,6 @@ public class CRMPage {
         return revenueTextonList;
     }
 
-    //td[text()='grou25OpportunityDemo']//parent::tr//td[@class='o_pivot_cell_value text-right'][1]
     @FindBy(xpath = "//td[text()='grou25OpportunityDemo']//parent::tr//td[@class='o_pivot_cell_value text-right'][1]")
     private WebElement revenueTextonPivot;
 
@@ -68,5 +67,12 @@ public class CRMPage {
 
     public WebElement getOpportunityOption(){
         return opportunityOption;
+    }
+
+    @FindBy(xpath = "//td[@class='o_pivot_cell_value text-right'][1]")
+    private  List<WebElement>  expectedRevenues;
+
+    public List<WebElement> getExpectedRevenues() {
+        return expectedRevenues;
     }
 }
