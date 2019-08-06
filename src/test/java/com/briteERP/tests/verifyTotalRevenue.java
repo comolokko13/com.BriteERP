@@ -16,7 +16,7 @@ import java.util.List;
 public class verifyTotalRevenue extends TestBase {
 
     @Test
-    public void verifyListPageTest(){
+    public void verifyListPageTest() throws InterruptedException {
         LoginPage loginPage = new LoginPage();
         CRMPage crmPage = new CRMPage();
 
@@ -32,20 +32,24 @@ public class verifyTotalRevenue extends TestBase {
         BrowserUtils.clickWithJS(crmPage.getTotalButton());
         crmPage.getOpportunityOption().click();
        List<WebElement> expectedRevenues = crmPage.getExpectedRevenues();
+        BrowserUtils.waitVisiblity(expectedRevenues.get(0));
+
         List<Integer> revenues  = new ArrayList<>();
         for (WebElement element : expectedRevenues) {
+            String str = element.getText();
+            str = str.replaceAll("[,.]","");
+           revenues.add(Integer.parseInt(str));
 
-           revenues.add(Integer.parseInt(element.getText().replaceAll("[,.]","")));
 
         }
         Integer totalReveneu = 0;
+
       for (int i = 1 ;i < revenues.size();i++){
-          System.out.println(revenues.get(i));
+
           totalReveneu+=(int)revenues.get(i);
-          System.out.println(totalReveneu);
 
       }
-        System.out.println(totalReveneu.toString() + " === " + revenues.get(0));
+      Assert.assertEquals(totalReveneu,revenues.get(0));
 
 
 
