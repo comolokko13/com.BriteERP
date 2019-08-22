@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e487ad0-0548-4acd-9a1c-599b30757b72" name="Default Changelist" comment="viewListPage test added by Ali">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e487ad0-0548-4acd-9a1c-599b30757b72" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565064466741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="viewListPage test added by Ali">
+      <created>1566517451173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566517451173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,8 +181,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="viewListPage test added by Ali" />
     <MESSAGE value="viewTotalRevenue test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="viewTotalRevenue test added" />
+    <MESSAGE value="viewListPage test added by Ali" />
+    <option name="LAST_COMMIT_MESSAGE" value="viewListPage test added by Ali" />
   </component>
 </project>
