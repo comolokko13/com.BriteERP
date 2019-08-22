@@ -11,7 +11,7 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
-
+//1
     @FindBy(xpath = "//input[@id='login']")
     private
     WebElement email;
