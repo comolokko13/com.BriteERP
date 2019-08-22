@@ -12,6 +12,7 @@ public class LoginPage {
 
     }
 //1
+//2
     @FindBy(xpath = "//input[@id='login']")
     private
     WebElement email;
